@@ -1,7 +1,7 @@
 name: Apollo_Automation-CI
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/2 * * * *"
   push:
     branches: [ main, release]
   pull_request:
